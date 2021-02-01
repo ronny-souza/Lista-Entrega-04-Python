@@ -2,7 +2,7 @@
 # estão em um intervalo que vai de 1 a 60. Escreva um programa que gere os 6 números sorteados e os armazene 
 # em uma lista. Garanta que não haja valores duplicados. Exiba os números em ordem crescente.
 
-from random import *
+from random import randint
 
 numeros = []
 while len(numeros) < 6:
